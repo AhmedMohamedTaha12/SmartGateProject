@@ -1,0 +1,103 @@
+* {
+  direction: rtl;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+#orangebutton {
+  background-color: #f4a825;
+  transition: all 0.8s;
+}
+#orangebutton:hover {
+  background-color: white;
+  border: 1px solid #f4a825;
+  color: #f4a825;
+}
+.smartgatetext {
+  color: #f4a825;
+  font-weight: bold;
+  font-size: 40px;
+}
+.smartgatetext span {
+  color: #3485b9;
+}
+.text-end h6 {
+  color: gray;
+  /* font-size:8px; */
+}
+.cardparagraph {
+  color: black;
+  /* font-weight: bold; */
+  font-size: 14px;
+}
+.conferances {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(248, 248, 248, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+}
+.conferances h1 {
+  font-weight: 400;
+  border-right: 4px solid #3485b9;
+  padding-right: 8px;
+  margin-bottom: 20px;
+}
+.carddtext {
+  color: gray;
+}
+.blue {
+  background-color: #07bef8;
+  color: white;
+}
+.blue h6 {
+  color: white;
+  font-size: 20px;
+}
+.orange {
+  background-color: #f86707;
+  color: white;
+}
+.orange h6 {
+  color: white;
+  font-size: 20px;
+}
+.green {
+  background-color: #5de4b2;
+  color: white;
+}
+.green h6 {
+  color: white;
+  font-size: 20px;
+}
+.cardmaintext {
+  color: black;
+  font-size: larger;
+  /* font-size: 30px; */
+}
+.container {
+  /* background-color: red !important; */
+}
+
+.footer {
+  background-color: #3485b9;
+  color: white;
+}
+.orangecircle {
+  position: absolute;
+  z-index: -100px;
+  top: 90px;
+  right: -400px;
+  width: 450px;
+}
+.bluecircle {
+  position: absolute;
+  z-index: -100px;
+  top: 40px;
+  right: 1600px;
+  width: 250px;
+}
