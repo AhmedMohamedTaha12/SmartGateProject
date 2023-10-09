@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./vendor/bootstrap/bootstrap.min.css" />
     <!-- font awsome css file  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <!-- animate.css file  -->
+    <link rel="stylesheet" href="./vendor/animate.css/cdnjs.cloudflare.com_ajax_libs_animate.css_4.1.1_animate.min.css">
     <!-- my main css file  -->
     <link rel="stylesheet" href="./vendor/css/main.css" />
     <!-- todo --------------------------css files----------------------------------------------------- -->
@@ -63,7 +65,7 @@
           </ul>
           <div class=" me-4">
             <a class="btn ms-2" href="#" id="orangebutton">تسجيل الدخول</a
-            ><a class="btn btn-outline-primary" href="#">التسجيل</a>
+            ><a class="btn btn-outline-primary" href="#" style="transition: all 0.8s;">التسجيل</a>
           </div>
         </div>
       </div>
@@ -72,11 +74,11 @@
     <!-- ? body  -->
     <div class="body container-fluid " style="position: relative; overflow-x: hidden;">
       <!--? hero section  -->
-      <div class="container bg-light">
+      <div class="container herosection">
 	<div class="row"   style="direction:ltr;">
 		<div class="col-md-5 my-auto p-5">
 			<div class="lc-block">
-				<img class="img-fluid" alt="Photo by Anders Jildén" src="./images/858.png">
+				<img class="img-fluid mainpic animate__animated  animate__pulse" alt="Photo by Anders Jildén" src="./images/858.png">
 			</div>
 		</div>
 		<div class="col-md-7" style="padding:10vw">
@@ -103,13 +105,13 @@
         <img class="bluecircle" src="./images/blue circle.png " alt="">
 
       <!--? hero section  -->
-      <!-- ? conferances section -->   
-        <div class="container  d-flex align-items-start conferances  mb-5" >
+      <!-- ? newssection-->   
+        <div class="container  d-flex align-items-start conferances  mb-5 newssection" >
           <h1>اخر الاخبار</h1>
           <div class="row">
             <div class="col-md-4  ">
               <div class="lc-block my-3">
-                <div class="card shadow-lg  bg-white text-dark rounded-5">
+                <div class="card shadow-lg   text-dark rounded-5">
                   <img class="card-img-top" src="./images/NoPath - Copy (57).png">
                   <div class="card-body text-end">
                     <h6>الأحد ، الموافق 29 / 01 / 2022</h6>
@@ -147,9 +149,9 @@
             <!-- /col -->
           </div>
         </div>
-      <!-- ? conferances section -->
+      <!-- ? newssection -->
       <!-- ? services section -->
-      <div class="container  d-flex align-items-start conferances py-3 mb-5">
+      <div class="container  d-flex align-items-start conferances py-3 mb-5  servicessection">
         <h1>خدماتنا</h1>
         <div class="row">
           <div class="col-lg-3 col-md-6" >
@@ -202,15 +204,15 @@
           </div>
           <!-- /col -->
         </div>
-      </div>
+      </div> 
       <!-- ? services section -->
       <!-- ? divider section -->
       <div class="dividersection container mb-5">
         <img class="img-fluid" src="./images/Group 9130.png" alt="">
       </div>
       <!-- ? divider section -->
-      <!-- ? our section  -->
-      <div class="container  d-flex align-items-start conferances  mb-5 " >
+      <!-- ? sectors section  -->
+      <div class="container  d-flex align-items-start conferances  mb-5 sectors" >
         <h1>قطاعاتنا</h1>
         <div class="row me-3">
           <div class="col-md-4  ">
@@ -253,7 +255,7 @@
       </div>
       <!-- ? our section  -->
       <!-- ? ندوات  -->
-      <div class="container  d-flex align-items-start conferances  mb-5" >
+      <div class="container  d-flex align-items-start conferances  mb-5 meetings" >
         <h1>الندوات</h1>
         <div class="row">
           <div class="col-md-4  ">
@@ -306,46 +308,9 @@
         </div>
       </div>
       <!-- ? ندوات  -->
-      <!-- ? شركائنا -->
-      <div class="container  d-flex align-items-start conferances  mb-5" >
-        <h1>عملائنا المميزون</h1>
-        <div class="row justify-content-evenly">
-          <div class="col-md-2">
-            <div class="lc-block my-1">
-                <img class="img-fluid" src="./images/Group 11341.png">
-            </div>
-            <!-- /lc-block -->
-          </div>
-          <div class="col-md-2">
-            <div class="lc-block my-1">
-                <img class="card-img-top" src="./images/NoPath.png">
-            </div>
-            <!-- /lc-block -->
-          </div>
-          <div class="col-md-2 ">
-            <div class="lc-block my-1">
-                <img class="card-img-top" src="./images/NoPath - Copy (20).png">
-            </div>
-            <!-- /lc-block -->
-          </div>
-          <div class="col-md-2 ">
-            <div class="lc-block my-1">
-                <img class="card-img-top" src="./images/NoPath - Copy (22).png">
-            </div>
-            <!-- /lc-block -->
-          </div>
-          <div class="col-md-2">
-            <div class="lc-block my-1">
-                <img class="card-img-top" src="./images/NoPath - Copy (22).png">
-            </div>
-            <!-- /lc-block -->
-          </div>
-          <!-- /col -->
-        </div>
-      </div>
-      <!-- ? شركائنا -->
+
       <!-- ? تواصل معنا  -->
-      <div class="container">
+      <div class="container conection">
         <h1 style="  border-right: 4px solid #3485b9; padding-right: 8px; margin-bottom: 20px;font-weight: 400;">تواصل معنا</h1>
           <div class="row">
             <div class="col-lg-6 py-5 bg-light">
@@ -389,11 +354,11 @@
 <section class="footer">
 	<div class="container">
 		<div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
-			<div class="col mb-3">
+			<div class="col mb-3 text-center">
 				<div class="lc-block mb-3"><a class="navbar-brand" href="https://library.livecanvas.com/sections/">
 						<img class="img-fluid me-1" src="./images/WhatsApp Image 2022-01-19 at 8.38.43 PM@2x.png" alt="my brand"  lc-helper="image">
 					</a>
-        <p class="text-center">Lorem ipsum dolor sit amet.</p>
+        <p class="my-1" style="font-size: 14px;">عقار رقم 9 شارع حسن افلاطون ارض الجولف – مدينة نصر</p>
       </div>
 				<div class="lc-block ms-3">
 					<div editable="rich">
@@ -414,18 +379,26 @@
         </style>
 					<div editable="rich" class="footer-links-list">
 
-						<ul>
-							<li><a href="#">الرئيسية</a> </li>
-							<li><a href="#">خدماتنا</a></li>
-							<li><a href="#">قطاعاتنا</a> </li>
-							<li><a href="#">من نحن</a> </li>
+						<ul class="">
+							<li><a href="#" style="font-size: 16px; ">
+                <i class="fa-solid fa-house mx-1" style="color: #e4f500;"></i> 
+                الرئيسية</a> </li>
+							<li><a href="#" style="font-size: 16px;">
+                <i class="fa-solid fa-briefcase mx-1" style="color: #fbff00;"></i>
+                خدماتنا</a></li>
+							<li><a href="#" style="font-size: 16px;" >
+                <i class="fa-solid fa-people-roof mx-1" style="color: #d4ff00;"></i>
+                قطاعاتنا</a> </li>
+							<li><a href="#" style="font-size: 16px;" >
+                <i class="fa-solid fa-users mx-1" style="color: #eeff00;"></i>
+                من نحن</a> </li>
 						</ul>
 
 					</div>
 				</div>
 				<!-- /lc-block -->
 			</div>
-			<div class="col mb-3">
+			<div class="col mb-4">
 				<div class="lc-block mb-4">
 					<div editable="rich">
 					</div>
@@ -433,15 +406,14 @@
 				<!-- /lc-block -->
 				<div class="lc-block small">
 					<div editable="rich" class="footer-links-list">
-
 						<ul>
-							<li><a href="#">تواصل معنا عبر</a> </li>
-							<li><a href="#"><i class="fa-solid fa-mobile-screen" style="color: #fff700;font-size:20px;"></i>
+							<li><a href="#" style="font-size: 18px;">تواصل معنا عبر : </a> </li>
+							<li><a href="#" style="font-size: 16px; margin-right: 14px;"><i class="fa-solid fa-mobile-screen" style="color: #fff700;font-size:20px;"></i>
                 01069673344</a></li>
-							<li><a href="#">
+							<li><a href="#" style="font-size: 16px; margin-right: 14px;">
                 <i class="fa-solid fa-phone-volume" style="color: #e4f500; font-size: 20px;"></i>
                 0224199056</a> </li>
-							<li><a href="#">
+							<li><a href="#" style="font-size: 16px; margin-right: 14px;">
                 <i class="fa-solid fa-envelope" style="color: #e7eb00;font-size: 20px;"></i>
                 info@smart-gate.net</a> </li>
 						</ul>
@@ -453,7 +425,7 @@
 		</div>
 	</div>
 </section>
- 
+
  
   
         <!-- ?footer  -->

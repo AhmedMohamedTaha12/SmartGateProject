@@ -32,12 +32,6 @@
   font-size: 14px;
 }
 .conferances {
-  background: rgb(255, 255, 255);
-  background: linear-gradient(
-    0deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(248, 248, 248, 1) 100%
-  );
   display: flex;
   flex-direction: column;
 }
@@ -100,4 +94,37 @@
   top: 40px;
   right: 1600px;
   width: 250px;
+}
+.nav-link {
+  transition: all 0.8s;
+}
+.nav-link:hover {
+  color: #f4a825;
+  transform: scale(102%);
+}
+.mainpic {
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+}
+.animationn {
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  /* animation-iteration-count  */
+  animation-duration: 1s;
+}
+.servicessection {
+  opacity: 0%;
+  transition: all 0.8s;
+}
+.img {
+  width: 25%;
+}
+.roww {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
